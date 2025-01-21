@@ -3,7 +3,7 @@ const github = require("@actions/github");
 
 try {
   // Fetch the value of the input 'who-to-greet' specified in action.yml
-  const valdata = core.getInput("valdata");
+  const valdata = core.getInput("data");
   let dataOut = valdata;
   console.log(`input: ${valdata}`);
   const varName = core.getInput("variable-name");

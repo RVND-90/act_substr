@@ -1,6 +1,9 @@
 name: "Action Substring"
 description: "Action for substring"
 inputs:
+  data:
+    description: "variable data"
+    required: true
   variable-name:
     description: "variable name"
     required: true
