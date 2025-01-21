@@ -19,8 +19,7 @@ try {
   console.log(`output: ${dataOut}`);
 
   // Record the time of greeting as an output
-  core.setOutput("name", varName);
-  core.setOutput("value", dataOut);
+  core.setOutput(varName, dataOut);
 } catch (error) {
   // Handle errors and indicate failure
   core.setFailed(error.message);
