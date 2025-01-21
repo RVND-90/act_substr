@@ -1,0 +1,18 @@
+name: "Action Substring"
+description: "Action for substring"
+inputs:
+  variable-name:
+    description: "variable name"
+    required: true
+  mode:
+    description: "head or tail"
+    default: "head"
+  length:
+    description: "length of output"
+    required: true
+outputs:
+  time:
+    description: "The time we greeted you"
+runs:
+  using: "node16"
+  main: "index.js"
